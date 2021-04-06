@@ -1,0 +1,16 @@
+// Widesceens
+@include mediaXl {
+}
+// Desktops
+@include mediaLg {
+}
+// Tablets
+@include mediaMd {
+  main {
+    align-items: center;
+    text-align: center;
+  }
+}
+// Mobile
+@include mediaSm {
+}
