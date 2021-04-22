@@ -13,20 +13,36 @@ main {
   padding: 4rem;
   min-height: calc(100vh - 100px);
   // flex: 1 0 auto;
+
+  #hero_text {
+    font-size: 15px;
+  }
+
   .row {
     margin-top: 2rem;
   }
+
   .card-title {
     color: #0000;
   }
+
   .hero img {
     height: 300px;
     width: 300px;
   }
 }
 
-h3 {
+h4 {
   color: $primary-color;
   padding: 2rem;
   background: white;
+}
+// Footer
+footer {
+  padding-left: 10px;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
 }
