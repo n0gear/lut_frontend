@@ -6553,11 +6553,90 @@ main {
   main .hero img {
     height: 300px;
     width: 300px; }
+  main .button {
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: #ffffff;
+    background: #795548;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.16);
+    margin-bottom: 1rem; }
+    main .button:hover {
+      background: #593f35; }
+  main .title {
+    font-family: inherit;
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: inherit;
+    color: #ff9800;
+    margin-left: 2rem; }
+
+@keyframes openModal {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+  main .modal {
+    position: fixed;
+    display: none;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background: rgba(37, 42, 50, 0.65); }
+    main .modal-dialog {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      max-width: 80%;
+      height: auto;
+      margin: 10% auto;
+      padding: 1rem 1.5rem;
+      border: none;
+      outline: none;
+      border-radius: 4px;
+      color: #252a32;
+      background: #ffffff;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16);
+      animation: openModal 1s ease; }
+    main .modal-close {
+      position: absolute;
+      display: block;
+      top: 1rem;
+      right: 1.5rem;
+      font-size: 1.25rem;
+      cursor: pointer;
+      border: none;
+      outline: none;
+      color: #3b434f; }
+    main .modal-header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 2rem; }
+    main .modal-content {
+      padding: 1.5rem 0;
+      color: #252a32;
+      background: #ffffff; }
+    main .modal-footer {
+      color: #252a32;
+      background: #ffffff; }
 
 h4 {
   color: #ff9800;
   padding: 2rem;
-  background: white; }
+  background: white;
+  text-align: center; }
 
 .projects img {
   padding-bottom: 1rem;
