@@ -6559,6 +6559,14 @@ h4 {
   padding: 2rem;
   background: white; }
 
+.projects img {
+  padding-bottom: 1rem;
+  max-width: 300px; }
+
+.projects .flow-text {
+  background: #fff;
+  padding: 1rem; }
+
 footer {
   padding-left: 10px; }
   footer a {

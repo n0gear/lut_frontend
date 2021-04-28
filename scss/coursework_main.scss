@@ -37,6 +37,19 @@ h4 {
   padding: 2rem;
   background: white;
 }
+
+// Projects Page
+.projects {
+  img {
+    padding-bottom: 1rem;
+    max-width: 300px;
+  }
+  .flow-text {
+    background: #fff;
+    padding: 1rem;
+  }
+}
+
 // Footer
 footer {
   padding-left: 10px;
