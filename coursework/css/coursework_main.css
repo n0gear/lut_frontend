@@ -6543,7 +6543,112 @@ body {
 
 main {
   padding: 4rem;
-  min-height: calc(100vh - 100px); }
+  min-height: calc(100vh - 100px);
+  /* // This is modified from the code found from https://codepen.io/syahrizaldev/pen/mdPJYLz
+  .button {
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: $color-white;
+    background: $secondary-color;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.16);
+    margin-bottom: 1rem;
+
+    &:hover {
+      background: darken($secondary-color, 10);
+    }
+  }
+
+  .title {
+    font-family: inherit;
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: inherit;
+    color: $primary-color;
+    margin-left: 2rem;
+  }
+
+  @keyframes openModal {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  .modal {
+    position: fixed;
+    display: none;
+    left: 10%;
+    top: 10%;
+    padding-bottom: 3rem;
+    overflow: hidden;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background: rgba($color-dark, 0.65);
+
+    &-dialog {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      max-width: 80%;
+      height: auto;
+      //margin: 10% auto;
+      padding: 1rem 1.5rem;
+      border: none;
+      outline: none;
+      border-radius: 4px;
+      color: $color-dark;
+      background: $color-white;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16);
+      animation: openModal 1s ease;
+    }
+
+    &-close {
+      position: absolute;
+      display: block;
+      top: 1rem;
+      right: 1.5rem;
+      font-size: 1.25rem;
+      cursor: pointer;
+      border: none;
+      outline: none;
+      color: lighten($color-dark, 10);
+    }
+
+    &-header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 2rem;
+    }
+
+    &-content {
+      padding: 1.5rem;
+      color: $color-dark;
+      background: $color-white;
+    }
+
+    &-footer {
+      color: $color-dark;
+      background: $color-white;
+    }
+    .img {
+      margin-bottom: 3rem;
+      padding-bottom: 3rem;
+    }
+  } */ }
   main #hero_text {
     font-size: 15px; }
   main .row {
@@ -6557,7 +6662,8 @@ main {
 h4 {
   color: #ff9800;
   padding: 2rem;
-  background: white; }
+  background: white;
+  text-align: center; }
 
 .projects img {
   padding-bottom: 1rem;
