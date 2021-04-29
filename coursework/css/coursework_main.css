@@ -6543,7 +6543,7 @@ body {
 
 main {
   padding: 4rem;
-  min-height: calc(100vh - 100px); }
+  min-height: calc(100vh - 140px); }
   main #hero_text {
     font-size: 15px; }
   main .row {
