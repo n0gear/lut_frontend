@@ -12,6 +12,9 @@ CSS is inside `scss`folder
 I am using similar setup as in youtube-tutorial. I have also added Materialize1.0.0 to help with page 
 composition as per Echo360 video series.
 
+## YOUTUBE
+
+`https://youtu.be/ZjlH5Ejjjik`
 
 ## Instructions
 
